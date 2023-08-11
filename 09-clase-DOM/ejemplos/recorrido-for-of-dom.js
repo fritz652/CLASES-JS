@@ -8,6 +8,9 @@ for (const pais of paises){
 //CHI
 
 
+
+//  veamos otro ejemplo:::::::::::
+
 //Obtenemos el nodo donde vamos a agregar los nuevos elementos
 let padre = document.getElementById("personas");
 //Array con la información a agregar
