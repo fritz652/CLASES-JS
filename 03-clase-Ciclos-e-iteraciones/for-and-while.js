@@ -26,3 +26,13 @@ while ( y > 0){
     console.log(`El valor de y es: ${y}` );
     y--;
 }
+
+// el while debe entenderse de la siguiente manera:
+/* 
+    sea "y" = 10 ( declaración); 
+    mientas (while) "y"  sea mayor que 0
+    ejcutar: "el valor de y es "y"
+    actualizar  y en y-1 en cada intent----> esto sera hasta que cumpla la condicion
+    mientras "y" sea mayor que 0
+
+*/
