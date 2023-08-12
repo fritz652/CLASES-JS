@@ -6,7 +6,7 @@ si responde mal, volvemos a empezar.
 
 let respuesta;
 
-while(respuesta !== "4"){   // mientras x sea diferente que 4
+while(respuesta !== "4"){   // mientras respuesta sea diferente que 4
     let pregunta = prompt(`¿Cuánto es 2 mas 2?`); // ejecutar este codigo
     respuesta = pregunta;
 }
