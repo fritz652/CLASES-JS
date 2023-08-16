@@ -32,7 +32,9 @@ console.log(numero);// 11
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 /* :::::::::::::::::OPERADOR TERNARIO:::::::::::::::::::: */
-/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */    
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */ 
+/* :::::condicional ? : resultado1: resultado2;:::::::::: */  
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */   
 
 let edad = 21;
 
@@ -49,8 +51,29 @@ if (edad >=18){
 let edad2 = 21;
 
 edad2 >=18 ? console.log("puedes ingresar"): console.log("no puedes ingresar");// "puedes ingresar"
+
 // se puede sintetisar aun mas, de la diguiente manera:
+let edad3 = 13;
+console.log(edad3 > 18 ? "puedes ingresar" : "no puedes ingresar");// puedes ingresar
 
-console.log( edad3 > 18 ? "puedes ingresar" : "no puedes ingresar");// puedes ingresar
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* ::::::::::::::::::::OPERADOR AND:::::::::::::::::::::: */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */ 
+/* ::::::::::::::::::::::::&&:::::::::::::::::::::::::::: */  
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 
+// cuando el carrito esta vacio, arroja El carrito esta vacio
+// como no tiene else, ahora si podemos datos dentro del array [] ahi no arroja nada.
+const carrito = [];
+
+if (carrito.length === 0) {
+    console.log("El carrito esta vacio"); // El carrito esta vacio
+}
+
+// veamos el mismo ejemplo con operador && :
+
+const carrito1 = [];
+carrito1.length === 0 && console.log("El carrito esta vacío");// El carrito esta vacio
+
+// se puede resumir 
