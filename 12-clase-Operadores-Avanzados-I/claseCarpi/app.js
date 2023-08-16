@@ -76,4 +76,29 @@ if (carrito.length === 0) {
 const carrito1 = [];
 carrito1.length === 0 && console.log("El carrito esta vacío");// El carrito esta vacio
 
-// se puede resumir 
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* ::::::::::::::::::::OPERADOR OR:::::::::::::::::::::: */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */ 
+/* ::::::::::::::::::::::::||:::::::::::::::::::::::::::: */  
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+// FALSY    : 0, null, undefined, NaN, false, string vacio
+// NULLISH  : null, undefined
+
+let usuario1 = "carpi";
+let usuario2 = null;
+
+if (usuario1){;
+    console.log(usuario1)// carpi
+} else {
+    console.log("El usuario no existe");
+}
+
+// veamos el ejemplo con || :
+
+let usuario3 = "carpi";
+let usuario4 = null;
+
+console.log(usuario3 || "El usuario no existe");//carpi
+console.log(usuario3 || "El usuario no existe");// El usuario no existe
