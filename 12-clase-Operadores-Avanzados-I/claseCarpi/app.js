@@ -81,7 +81,7 @@ carrito1.length === 0 && console.log("El carrito esta vacío");// El carrito est
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */ 
 /* ::::::::::::::::::::::::||:::::::::::::::::::::::::::: */  
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-
+// el oerador or se resume en:         true || false
 
 // FALSY    : 0, null, undefined, NaN, false, string vacio
 // NULLISH  : null, undefined
